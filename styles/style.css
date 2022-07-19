@@ -1,0 +1,204 @@
+/* google font here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* commons styles and utility */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #161616;
+    border-radius: 30px;
+}
+
+.blog-container{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: stretch;
+    height: 1500px;
+}
+
+.aside-container{
+    width: 304px !important;
+    /* background: aquamarine; */
+    margin-right: 10px;
+    
+}
+
+.main-block-container{
+    /* background: aqua; */
+}
+#mainBlogContainer{
+    flex-grow: 1;
+}
+
+.col-50{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* main css style state */
+/* =======home css start======= */
+
+.home-content{
+    padding: 100px 10px 100px 90px;
+    
+}
+.home-content h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin: 0;
+
+}
+.home-content p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 50px;
+    padding-right: 20px;
+
+}
+.home-content .home-btn{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 15px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.home-right{
+    position: relative;
+    /* width: 100%; */
+}
+.home-images{
+        position: absolute;
+        top: -284px;
+        right: 30px;
+        width: 86%;
+        height: auto;
+    
+}
+
+/* =======home css end======= */
+
+
+/* =======player-blog css start======= */
+
+
+
+.play-blog{
+    height: 1500px;
+    margin: 100px 0;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.players .player{
+    border: 1px solid #d2cfcf;
+    border-radius: 20px;
+}
+
+.player .blog-details{
+    padding: 20px 20px;
+}
+
+
+
+
+
+.site-blog{
+    background: #161616;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.site-blog .blog-btn a{
+    text-decoration: none;
+     background: #FFFFFF;
+     border-radius: 10px;
+     padding: 17px 35px;
+     color: #161616;
+     font-size: 20px;
+     font-weight: 500;
+     text-transform: capitalize;
+     display: inline-block;
+     margin: 15px 0;
+}
+.site-blog .blog-btn .select-btn {
+    background: #DD0000;
+    color: #ffffff;
+}
+
+.player .blog-inbtn a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    border: 2px solid #161616;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+
+}
+.blog-footer .fristsec{
+    color: rgba(22, 22, 22, 0.7);
+
+}
+.fristsec .timing-hour{
+margin-right: 60px;
+
+}
+.fristsec .timing-hour i{
+margin-right: 10px;
+
+}
+.fristsec .message-icon i{
+    margin-right: 10px;
+    
+
+}
+
+
+
+/* =======player-blog css end======= */
+
+/* =======footer css start======= */
+
+.footer-sec{
+    background: #161616;
+    /* position: relative;
+
+
+
+
+/* =======footer css end======= */
+
+/* =======home css start======= */
+/* =======home css end======= */
+
+
+
+
+
+
+
+
