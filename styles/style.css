@@ -185,9 +185,41 @@ margin-right: 10px;
 
 .footer-sec{
     background: #161616;
-    /* position: relative;
+    padding: 100px 0;
+}
 
+.footer-content{
+    text-align: center;
+    color: #FFFFFF;
+}
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
 
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    
+    
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+
+}
+.nav ul li{
+    margin-right: 40px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    font-weight: 500;
+
+}
 
 
 /* =======footer css end======= */
