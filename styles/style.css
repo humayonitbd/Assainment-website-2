@@ -221,11 +221,54 @@ hr{
 
 }
 
-
 /* =======footer css end======= */
 
-/* =======home css start======= */
-/* =======home css end======= */
+/* =======Others page  css start======= */
+/* =======Others page  css start======= */
+.blog-container2{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: stretch;
+    height: 500px;
+}
+
+.play-blog2{
+    height: 500px;
+    margin: 100px 0;
+}
+
+
+
+
+.blogImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.varses{
+    margin: 0 10px;
+}
+.blogImage img{
+    width: 40%;
+    height: auto;
+}
+.others-page{
+    padding: 25px;
+}
+.others-content{
+    text-align: center;
+
+}
+.others-content h2{
+    font-size: 22px;
+}
+
+
+
+/* =======Others page css end======= */
+/* =======Others page css end======= */
 
 
 
