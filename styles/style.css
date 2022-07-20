@@ -13,21 +13,19 @@ body{
     align-items: center;
     background: #161616;
     border-radius: 30px;
-    transition: width 5s;
+    transition: transform 5s;
 }
 
 .blog-container{
     width: 1300px;
     margin: 0 auto;
     display: flex;
-    /* justify-content: center; */
     align-items: stretch;
     height: 1500px;
 }
 
 .aside-container{
     width: 304px !important;
-    /* background: aquamarine; */
     margin-right: 10px;
     
 }
@@ -49,7 +47,7 @@ img{
 
 /* =======home css start======= */
 .container:hover{
-    width: 1350px;
+    transform: rotate(10deg);
 }
 
 .home-content{
