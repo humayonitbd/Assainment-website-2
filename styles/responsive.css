@@ -88,6 +88,7 @@
 
     /* foter section css start  */
     .footer-sec{
+        width: 100%;
         padding: 20px;
     }
     .nav{
@@ -128,6 +129,9 @@
 /* tablet media css start */
 
 @media screen and (min-width: 577px) and (max-width: 992px){
+    main{
+        padding: 0 12px;
+    }
     .col-50{
         width: 100%;
     }
@@ -135,6 +139,9 @@
     img{
         width: 100% !important;
         height: auto;
+    }
+    .home{
+        margin-bottom: 50px;
     }
     .container{
         width: 100%;
@@ -147,11 +154,16 @@
     }
     .home-content h1{
         font-size: 50px;
+        line-height: 70px;
+    }
+    .home-right{
+        position: relative;
+        
     }
 
     .home-images {
         position: absolute;
-        top: -186px;
+        top: -189px;
         width: 100%;
     }
 
@@ -159,6 +171,39 @@
     /* home section css end */
 
     /* player blog section css start */
+    .aside-container{
+        width: 100%;
+        margin: 10px  auto;
+        
+    }
+    .site-blog{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+    }
+
+    .site-blog .blog-btn a{
+         margin: 0 3ex;
+         border: 2px solid #d7d2d2;
+         padding: 15px 50px;
+    }
+
+
+
+    .play-blog{
+        height: 2000px;
+        margin: 0;
+        
+    }
+
+    .playboy{
+        display: none;
+    }
+
+
+
+
     .blog-container{
         width: 100%;
         flex-direction: column;
@@ -169,5 +214,23 @@
         grid-row-gap: 20px;
     }
 
+
+    .players-btn0{
+        display: block;
+    }
     /* player blog section css start */
+
+    /* footer section css start */
+    .footer-sec{
+        width: 100%;
+
+    }
+    .nav ul li{
+        
+        margin-right: 2ex;
+        
+    }
+
+
+    /* footer section css start */
 }

@@ -78,6 +78,14 @@ img{
     background: #DD0000;
     border-radius: 5px;
     text-decoration: none;
+    transition: 0.10s;
+
+}
+.home-content .home-btn:hover{
+    transform: rotate(-30deg);
+    color: #000000;
+    background: aqua;
+    
 
 }
 .home-right{
@@ -175,6 +183,30 @@ margin-right: 10px;
 
 }
 
+.players-btn0{
+    text-align: center;
+    display: none;
+    
+}
+.players-btn0 a{
+    text-decoration: none;
+     background: #DD0000;
+     border-radius: 10px;
+     padding: 17px 35px;
+     color: #ffffff;
+     font-size: 20px;
+     font-weight: 500;
+     text-transform: capitalize;
+     display: inline-block;
+     margin-top: 80px;
+
+}
+
+.players-btn0 a:hover{
+    background: #161616;
+    color: #ffffff;
+}
+
 
 
 /* =======player-blog css end======= */
@@ -182,6 +214,7 @@ margin-right: 10px;
 /* =======footer css start======= */
 
 .footer-sec{
+    width: 100%;
     background: #161616;
     padding: 100px 0;
 }
