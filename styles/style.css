@@ -47,7 +47,7 @@ img{
 
 /* =======home css start======= */
 .container:hover{
-    transform: rotate(10deg);
+    transform: rotate(3deg);
 }
 
 .home-content{
