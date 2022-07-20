@@ -50,6 +50,8 @@ img{
 /* main css style state */
 /* =======home css start======= */
 
+
+
 .home-content{
     padding: 100px 130px 100px 90px;
     
@@ -63,6 +65,7 @@ img{
 
 }
 .home-content p{
+    /* width: 300px; */
     color: #ffffff;
     font-weight: 400;
     font-size: 16px;
@@ -70,6 +73,9 @@ img{
     padding-right: 20px;
 
 }
+
+/* btn animation kora hoase akhane */
+
 .home-content .home-btn{
     color: #ffffff;
     font-weight: 400;
@@ -78,16 +84,35 @@ img{
     background: #DD0000;
     border-radius: 5px;
     text-decoration: none;
-    transition: 0.10s;
+    transition: all 0.5s;
+    /* transform: scale(0.5); */
 
 }
-.home-content .home-btn:hover{
-    transform: rotate(-30deg);
-    color: #000000;
-    background: aqua;
-    
+.home-content .home-btn span{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.home-content .home-btn span::after{
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.home-content .home-btn:hover span{
+    padding-right: 25px;
 
 }
+.home-content .home-btn:hover span::after{
+    opacity: 1;
+    right: 0;
+
+}
+
+
 .home-right{
     position: relative;
     /* width: 100%; */
@@ -252,6 +277,17 @@ hr{
     text-transform: capitalize;
 
 }
+
+.font-icon{
+    text-align: center;
+}
+.font-icon i{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 5px;
+    
+}
+
 
 /* =======footer css end======= */
 
