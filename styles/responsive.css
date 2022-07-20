@@ -15,7 +15,9 @@
         width: 100%;
         flex-direction: column;
     }
-    
+    .container:hover{
+        transform: rotate(0deg);
+    }
     .home-content{
         padding: 50px 60px;
         text-align: center;
@@ -125,6 +127,9 @@
     .container{
         width: 100%;
         
+    }
+    .container:hover{
+        transform: rotate(1deg);
     }
     .col-50{
         width: 100%;
