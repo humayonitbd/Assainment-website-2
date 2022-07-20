@@ -14,13 +14,10 @@
     .container{
         width: 100%;
         flex-direction: column;
-        height: 920px;
     }
     .home-content{
-        padding: 0 60px;
+        padding: 50px 60px;
         text-align: center;
-        /* position: relative; */
-        margin-top: -390px;
         
     }
 
@@ -30,28 +27,21 @@
         
     }
     .home-content p{
-        /* font-size: 17px; */
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
 
-
-        /* text-overflow: ellipsis; */
-        
-    }
-    .home-right{
-        position: relative;
-
         
     }
     .home-images{
-            position: absolute;
-            top: -36px;
-            width: 86%;
-            height: auto;
-            
-    }
+        width: 80%;
 
+    }
+    .home-right{
+        display: flex;
+        justify-content: center;
+    }
+    
     /* home section media css end */
 
     /* play blog section start */
@@ -101,18 +91,13 @@
     }
     .nav ul{
         flex-direction: column;
+        padding: 0;
     }
     .nav ul li{
         margin-right: 0;
-        margin: 10px 0;
+        margin: 15px 0;
         
     }
-
-    .font-icon{
-        padding: 0;
-        margin: 0;
-    }
-
 
     /* foter section css start  */
 
@@ -129,9 +114,9 @@
         margin: 0;
     }
 
-    /* others blog-page section start */
+    /* others blog-page section end */
 
-    /* others blog-page section start */
+    
     
 }
 
@@ -141,48 +126,36 @@
     main{
         padding: 0 12px;
     }
-    .col-50{
-        width: 100%;
-    }
     
     img{
-        width: 100% !important;
+        width: 100%;
         height: auto;
     }
-    .home{
-        margin-bottom: 50px;
-    }
+    /* home section css start */
     .container{
         width: 100%;
         
     }
-
-    .home-content{
-        padding: 100px 20px 100px 90px;
-        
-    }
-    .home-content h1{
-        font-size: 50px;
-        line-height: 70px;
-    }
-    .home-right{
-        position: relative;
-        
-    }
-
-    .home-images {
-        position: absolute;
-        top: -189px;
+    .col-50{
         width: 100%;
     }
 
+    .home-content{
+        padding: 80px 70px 80px 80px;
+        
+    }
+    .home-content h1{
+        font-size: 43px;
+        line-height: 51px;
+    }
 
     /* home section css end */
+
 
     /* player blog section css start */
     .aside-container{
         width: 100%;
-        margin: 10px  auto;
+        margin: 5px  auto;
         
     }
     .site-blog{
@@ -190,6 +163,8 @@
         justify-content: center;
         align-items: center;
         background: none;
+        margin-top: 50px;
+        padding: 15px 0;
     }
 
     .site-blog .blog-btn a{
@@ -197,8 +172,6 @@
          border: 2px solid #d7d2d2;
          padding: 15px 50px;
     }
-
-
 
     .play-blog{
         height: 2000px;
@@ -210,9 +183,6 @@
         display: none;
     }
 
-
-
-
     .blog-container{
         width: 100%;
         flex-direction: column;
@@ -223,11 +193,11 @@
         grid-row-gap: 20px;
     }
 
-
     .players-btn0{
         display: block;
     }
     /* player blog section css start */
+
 
     /* others blog-page section start */
 
@@ -242,11 +212,6 @@
 
     /* others blog-page section start */
 
-
-
-
-
-
     /* footer section css start */
     .footer-sec{
         width: 100%;
@@ -257,7 +222,6 @@
         margin-right: 2ex;
         
     }
-
 
     /* footer section css start */
 }

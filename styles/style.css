@@ -31,9 +31,6 @@ body{
     
 }
 
-.main-block-container{
-    /* background: aqua; */
-}
 #mainBlogContainer{
     flex-grow: 1;
 }
@@ -48,9 +45,8 @@ img{
 }
 
 /* main css style state */
+
 /* =======home css start======= */
-
-
 
 .home-content{
     padding: 100px 130px 100px 90px;
@@ -111,19 +107,14 @@ img{
     right: 0;
 
 }
-
-
 .home-right{
-    position: relative;
-    /* width: 100%; */
-}
 
-.home-images {
-    position: absolute;
-    right: 30px;
-    width: 86%;
-    height: auto;
-    top: -273px;
+    padding: 20px 20px 0 0 ;
+
+}
+.home-images img{
+    display: block;
+   
 }
 
 /* =======home css end======= */
@@ -266,6 +257,7 @@ hr{
 
 }
 .nav ul li{
+
     margin-right: 40px;
 
 }
@@ -279,36 +271,33 @@ hr{
 }
 
 .font-icon{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .font-icon i{
     font-size: 20px;
     color: #ffffff;
-    margin: 0 5px;
+    margin: 0 10px;
     
 }
 
 
 /* =======footer css end======= */
 
-/* =======Others page  css start======= */
-/* =======Others page  css start======= */
-.blog-container2{
-    width: 1300px;
-    margin: 0 auto;
-    display: flex;
-    /* justify-content: center; */
-    align-items: stretch;
-    height: 500px;
-}
 
+/* =======Others page  css start======= */
+/* =======Others page  css start======= */
 .play-blog2{
     height: 500px;
     margin: 100px 0;
 }
-
-
-
+.blog-container2{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    height: 500px;
+}
 
 .blogImage{
     display: flex;
@@ -332,8 +321,6 @@ hr{
 .others-content h2{
     font-size: 22px;
 }
-
-
 
 /* =======Others page css end======= */
 /* =======Others page css end======= */
