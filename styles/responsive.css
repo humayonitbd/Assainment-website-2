@@ -1,0 +1,173 @@
+/* phone responsive */
+@media screen and (max-width: 576px){
+    main{
+        padding: 0 6px;
+    }
+
+    img{
+        width: 100% !important;
+        height: auto;
+    }
+    .col-50{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+        height: 920px;
+    }
+    .home-content{
+        padding: 0 60px;
+        text-align: center;
+        /* position: relative; */
+        margin-top: -390px;
+        
+    }
+
+    .home-content h1{
+        font-size: 40px;
+        line-height: 50px;
+        
+    }
+    .home-content p{
+        font-size: 17px;
+
+        /* text-overflow: ellipsis; */
+        
+    }
+    .home-right{
+        position: relative;
+
+        
+    }
+    .home-images{
+            position: absolute;
+            top: -36px;
+            width: 86%;
+            height: auto;
+            
+    }
+
+    /* home section media css end */
+
+    /* play blog section start */
+    .aside-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .site-blog{
+        text-align: center;
+        background: #FFFFFF;
+        
+    }
+    .site-blog .blog-btn a{
+        border: 2px solid #d7d2d2;
+    }
+
+
+
+
+
+    .blog-container{
+        width: 100%;
+        flex-direction: column;
+        
+
+    }
+    .play-blog{
+        height: 5770px;
+        margin: 0;
+        
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    /* play blog section start */
+
+    /* foter section css start  */
+    .footer-sec{
+        padding: 20px;
+    }
+    .nav{
+        
+        text-align: center;
+    }
+    .nav ul{
+        flex-direction: column;
+    }
+    .nav ul li{
+        margin-right: 0;
+        margin: 10px 0;
+        
+    }
+
+
+    /* foter section css start  */
+
+
+
+    /* others blog-page section start */
+
+    .blog-container2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .play-blog2{
+        height: 2600px;
+        margin: 0;
+    }
+
+    /* others blog-page section start */
+
+    /* others blog-page section start */
+    
+}
+
+/* tablet media css start */
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .col-50{
+        width: 100%;
+    }
+    
+    img{
+        width: 100% !important;
+        height: auto;
+    }
+    .container{
+        width: 100%;
+        
+    }
+
+    .home-content{
+        padding: 100px 20px 100px 90px;
+        
+    }
+    .home-content h1{
+        font-size: 50px;
+    }
+
+    .home-images {
+        position: absolute;
+        top: -186px;
+        width: 100%;
+    }
+
+
+    /* home section css end */
+
+    /* player blog section css start */
+    .blog-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    /* player blog section css start */
+}

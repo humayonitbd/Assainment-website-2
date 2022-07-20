@@ -51,13 +51,13 @@ img{
 /* =======home css start======= */
 
 .home-content{
-    padding: 100px 10px 100px 90px;
+    padding: 100px 130px 100px 90px;
     
 }
 .home-content h1{
     color: #ffffff;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 80px;
     margin: 0;
 
@@ -84,19 +84,42 @@ img{
     position: relative;
     /* width: 100%; */
 }
-.home-images{
-        position: absolute;
-        top: -284px;
-        right: 30px;
-        width: 86%;
-        height: auto;
-    
+
+.home-images {
+    position: absolute;
+    right: 30px;
+    width: 86%;
+    height: auto;
+    top: -273px;
 }
 
 /* =======home css end======= */
 
 
 /* =======player-blog css start======= */
+
+.site-blog{
+    background: #161616;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.site-blog .blog-btn a{
+    text-decoration: none;
+     background: #FFFFFF;
+     border-radius: 10px;
+     padding: 17px 35px;
+     color: #161616;
+     font-size: 20px;
+     font-weight: 500;
+     text-transform: capitalize;
+     display: inline-block;
+     margin: 15px 0;
+}
+.site-blog .blog-btn .select-btn {
+    background: #DD0000;
+    color: #ffffff;
+}
 
 
 
@@ -121,31 +144,6 @@ img{
 }
 
 
-
-
-
-.site-blog{
-    background: #161616;
-    border-radius: 10px;
-    padding: 30px;
-}
-
-.site-blog .blog-btn a{
-    text-decoration: none;
-     background: #FFFFFF;
-     border-radius: 10px;
-     padding: 17px 35px;
-     color: #161616;
-     font-size: 20px;
-     font-weight: 500;
-     text-transform: capitalize;
-     display: inline-block;
-     margin: 15px 0;
-}
-.site-blog .blog-btn .select-btn {
-    background: #DD0000;
-    color: #ffffff;
-}
 
 .player .blog-inbtn a{
     font-weight: 500;
@@ -218,6 +216,7 @@ hr{
     color: #B9B9B9;
     font-size: 16px;
     font-weight: 500;
+    text-transform: capitalize;
 
 }
 
