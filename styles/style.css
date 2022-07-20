@@ -145,10 +145,8 @@ img{
     color: #ffffff;
 }
 
-
-
 .play-blog{
-    height: 1500px;
+    height: 1430px;
     margin: 100px 0;
 }
 .players{
@@ -166,8 +164,6 @@ img{
 .player .blog-details{
     padding: 20px 20px;
 }
-
-
 
 .player .blog-inbtn a{
     font-weight: 500;
@@ -196,7 +192,6 @@ margin-right: 10px;
 .fristsec .message-icon i{
     margin-right: 10px;
     
-
 }
 
 .players-btn0{
@@ -223,8 +218,6 @@ margin-right: 10px;
     color: #ffffff;
 }
 
-
-
 /* =======player-blog css end======= */
 
 /* =======footer css start======= */
@@ -248,7 +241,6 @@ hr{
     justify-content: center;
     align-items: center;
     margin: 20px 0;
-    
     
 }
 .nav ul{
@@ -280,7 +272,6 @@ hr{
     margin: 0 10px;
     
 }
-
 
 /* =======footer css end======= */
 

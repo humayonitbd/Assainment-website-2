@@ -18,7 +18,6 @@
     .home-content{
         padding: 50px 60px;
         text-align: center;
-        
     }
 
     .home-content h1{
@@ -31,7 +30,6 @@
         overflow: hidden;
         text-overflow: ellipsis;
 
-        
     }
     .home-images{
         width: 80%;
@@ -58,20 +56,14 @@
         border: 2px solid #d7d2d2;
     }
 
-
-
-
-
     .blog-container{
         width: 100%;
         flex-direction: column;
         
-
     }
     .play-blog{
-        height: 5720px;
+        height: 5550px;
         margin: 0;
-        
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
@@ -104,7 +96,6 @@
 
 
     /* others blog-page section start */
-
     .blog-container2{
         width: 100%;
         flex-direction: column;
@@ -116,8 +107,6 @@
 
     /* others blog-page section end */
 
-    
-    
 }
 
 /* tablet media css start */
