@@ -147,7 +147,7 @@ img{
 }
 
 .play-blog{
-    height: 1430px;
+    height: 1250px;
     margin: 100px 0;
 }
 .players{
@@ -176,6 +176,10 @@ img{
     display: inline-block;
     margin: 10px 0;
     text-decoration: none;
+
+}
+.blog-details h2{
+    font-size: 20px;
 
 }
 .blog-footer .fristsec{
